@@ -1,21 +1,21 @@
 # projeto-me-poupe-na-web
 ---
-##### Comandos para iniciar o projeto:
-`docker-compose up`: instalar e subir o projeto no Docker. 
+#### Comandos para iniciar o projeto:
+Instalar e subir o projeto no Docker: `docker-compose up`.  
 Caso não queira utilizar o Docker: `npm install` e `npm run dev`.
 
 Em ambas maneiras, a API estará disponível em `localhost:3333`.
 
-##### Endpoints da API:
+#### Endpoints da API:
 
-Cálculo da média: `GET: /calculateAverage?n1={numero1}&n2={numero2}`
+Cálculo da média: `GET: /calculateAverage?n1={numero1}&n2={numero2}`  
 Consulta de CEP: `GET: /searchCEP/{CEP}`
 
-##### Testes:
+#### Testes:
 
 Para rodar os testes, utilize o comando `node ace test`.
 
-##### Principais diretórios do projeto:
+#### Principais diretórios do projeto:
 
 - `app/Controllers`: controladores da aplicação, onde reside a lógica das requisições;
 - `app/Validators`: arquivos para validação de rota;
