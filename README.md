@@ -1,4 +1,4 @@
-# projeto-me-poupe-na-web
+# adonis-basic-api
 ---
 #### Comandos para iniciar o projeto:
 Instalar e subir o projeto no Docker: `docker-compose up`.  
